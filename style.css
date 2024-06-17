@@ -37,7 +37,7 @@ a{
     transition: background-color 300ms;
 }
 
-h1, p, a{
+h1, p, a, .bg-image{
     animation: appear 1s backwards;
 }
 
@@ -51,6 +51,10 @@ p{
 
 a{
     animation-delay: 1.8s;
+}
+
+.bg-image{
+    animation-delay: 0.6s;
 }
 
 a:hover{
